@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu 1º programa</title>
+    <style>
+        body {
+            background-color: #5e59a3;
+            color: white;
+            font: normal 20px Arial;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium distinctio sed excepturi facilis delectus architecto eveniet eligendi earum consectetur error est, obcaecati, quo dicta quibusdam voluptatum sint velit quis doloribus!</p>
+    <script>
+       /* Ao utilizar o comando prompt, deve-se estipular o seu tipo, como: Number.parseInt() ou Number.parseFloat(). Caso não seja um valor restrito, pode-se usar só Number() que o JS fará a conversão. 
+       Já, para fazer a conversãao de Number para String, é Só utilizar String() ou n1.toString()
+       */
+
+       let n1 = Number(window.prompt('Digite um número: '))
+       let n2 = Number(window.prompt('Digite outro número: '))
+       let soma = n1 + n2
+       alert(`A soma entre ${n1} e ${n2} é igual a ${soma}`)
+    </script>
+</body>
+</html>

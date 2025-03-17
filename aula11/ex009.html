@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivendo em...</title>
+    <style>body{font-family: 'Segoe UI'}</style>
+</head>
+<body>
+    <h1>Você é Estrangeiro?</h1>
+    Nacionalidade: <input type="text" id="nacID">
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div id="res">
+
+    </div>
+    <script>       
+        function verificar() {
+           let nacValor = document.querySelector('input#nacID')
+           let res = document.querySelector('div#res') 
+           let nac = nacValor.value
+           if (nac == 'Brasil') {
+            res.innerHTML =  `<p>${nac}? Você já é <strong>de casa</strong>!</p>`
+           }
+           else {
+            res.innerHTML = `<p>${nac}?  seja bem-vindo <strong>estrangeiro</strong>!</p>`
+           }
+           
+        } 
+    </script>
+</body>
+</html>
