@@ -16,6 +16,13 @@ section{
     text-align: left;
 }
 
+#foto {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
 footer{
     font-style: italic;
 }
