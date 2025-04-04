@@ -1,4 +1,5 @@
 function Gerar() {
+    console.log("Função Gerar() foi chamada!");
     let num = document.getElementById('num').value
     let tab = document.getElementById('seltab')
     if (num.length == 0) {
@@ -12,9 +13,5 @@ function Gerar() {
             tab.appendChild(item)
             
         }   
-    }
-
-    
+    }   
 }
-
-    
